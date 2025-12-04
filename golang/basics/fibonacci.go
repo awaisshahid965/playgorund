@@ -9,7 +9,11 @@ func fibonacci(n int) []int {
 		return []int{}
 	}
 
-	fibSeq := make([]int, n+1)
+	if n == 1 {
+		return []int{0}
+	}
+
+	fibSeq := make([]int, n)
 	fibSeq[0] = 0
 	fibSeq[1] = 1
 
@@ -21,6 +25,10 @@ func fibonacci(n int) []int {
 }
 
 func main() {
-	n := 1
+	n := 10
 	fmt.Printf("First %d Fibonacci numbers: %v\n", n, fibonacci(n))
 }
+
+// Output:
+// Calculating Fibonacci sequence...
+// First 10 Fibonacci numbers: [0 1 1 2 3 5 8 13 21 34]
