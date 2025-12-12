@@ -93,7 +93,6 @@ func main() {
 	GuessType(circle)
 }
 
-
 /*
   Things to practice:
    - Embedding interfaces & structs
