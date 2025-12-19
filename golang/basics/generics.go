@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("Practicing Go Generics...\n")
 
 	ints := []int{1, 2, 3, 4, 5}
-	strs := []string{"Hello", "Generics", "in", "Go"}
+	strs := []string{"Hello", "Generics", "in", "Golang"}
 
 	fmt.Printf("Traversing int slice:\n")
 	traverse(ints)
