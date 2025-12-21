@@ -1,4 +1,3 @@
-// generics.go
 package main
 
 import (
